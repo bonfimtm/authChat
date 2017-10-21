@@ -1,0 +1,46 @@
+.splash {
+	display: none;
+}
+
+[ng-cloak].splash {
+	display: block !important;
+}
+		
+.splash {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100%;
+	width:100%;
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+	background: white;
+	z-index: 9999;
+}
+
+.splash p {
+	text-align: center;
+	font-size: 3em;
+	color: gray;
+	position: absolute;
+	top: 35%;
+	width:100%;
+}
+
+.img-thumb {
+	background-repeat: no-repeat;
+}
+
+.img-thumb.fullw {
+	width: 100%;
+}
+
+.img-thumb.contain {
+	background-position: center center;
+	background-size: contain;
+}
+
+.img-thumb.cover {
+	background-position: center center;
+	background-size: cover;
+}
